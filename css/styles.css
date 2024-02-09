@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#formula {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#formula-value {
+  color: #4caf50;
+}
+.celsius {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  padding: 10px 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: #424242 1px 1px;
+}
+
+.input-field-fokus {
+  border: blue;
+}
