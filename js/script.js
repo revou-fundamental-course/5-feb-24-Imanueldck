@@ -23,7 +23,7 @@ resetButton.addEventListener("click", () => {
 });
 
 reverseButton.addEventListener("click", () => {
-  const temp = result.textContent.split(" ")[1];
+  const temp = parseFloat(result.textContent.split(" ")[1]);
   const celsius = ((temp - 32) * 5) / 9;
   result.textContent = `Hasil: ${celsius.toFixed(2)}°C`;
   formula.textContent = `C(°C) = (${temp}°F - 32) x 5/9`;
