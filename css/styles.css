@@ -7,7 +7,7 @@ body {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(4, 4, 4, 0.75), rgba(0, 0, 0, 0.75)), url(pemandangan.jpg);
+  background-image: linear-gradient(rgba(4, 4, 4, 0.75), rgba(0, 0, 0, 0.75)), url(/asset/pemandangan.jpg);
 }
 
 button {
