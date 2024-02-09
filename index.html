@@ -5,16 +5,18 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
   <body>
-    <h1>Konversi Suhu dari Celsius ke Fahrenheit</h1>
-    <div class="celsius">
-      <label>Celsius</label>
-      <input type="number" class="input" placeholder="Masukkan suhu dalam Celsius" />
+    <div class="banner">
+      <h1>Konversi Suhu dari Celsius ke Fahrenheit</h1>
+      <div class="kotak">
+        <h2>Celsius</h2>
+        <input type="number" id="celsius" placeholder="Masukkan suhu dalam Celsius" />
+      </div>
+      <button id="convert">Konversi</button>
+      <button id="reset">Reset</button>
+      <button id="reverse">Reverse</button>
+      <h2 id="result">Hasil:</h2>
+      <p id="formula">Cara kalkulasi: <span id="formula-value">C(°F) = (C(°C) x 9/5) + 32</span></p>
+      <script src="js/script.js"></script>
     </div>
-    <button id="convert">Konversi</button>
-    <button id="reset">Reset</button>
-    <button id="reverse">Reverse</button>
-    <h2 id="result">Hasil:</h2>
-    <p id="formula">Cara kalkulasi: <span id="formula-value">C(°F) = (C(°C) x 9/5) + 32</span></p>
-    <script src="js/script.js"></script>
   </body>
 </html>
