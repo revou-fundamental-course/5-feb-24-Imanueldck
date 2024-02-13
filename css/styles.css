@@ -9,7 +9,7 @@ body {
   align-items: center;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(4, 4, 4, 0.75), rgba(0, 0, 0, 0.75)), url(/asset/pemandangan.jpg);
+  background-image: url(../asset/pemandangan.jpg);
   position: relative;
 }
 
