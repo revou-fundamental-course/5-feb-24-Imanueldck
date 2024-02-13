@@ -92,13 +92,12 @@ input {
 }
 
 input::placeholder {
-  color: #999;
+  color: #4a4848;
 }
 
 input:focus {
   outline: none;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  border-color: #097633;
+  box-shadow: 10px 12px 15px rgba(0, 255, 47, 0.2);
   border-radius: 10px;
 }
 .kotak {
